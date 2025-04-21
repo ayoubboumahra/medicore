@@ -1,0 +1,156 @@
+body {
+    background-color: #F8FAFC;
+    background-image: url("/assets/background.png");
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    min-height: 100vh;
+}
+.sidebar {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-color: #02A499; 
+    color: white;
+    border-radius: 15px;
+    padding: 10px 30px;
+    min-height: calc(100vh - 2rem);
+}
+.sidebar-logo {
+    padding: 20px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sidebar-items a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+.sidebar-items a:hover {
+    font-weight: bold;
+}
+
+.offcanvas {
+  background-color: #02A499; 
+}
+
+header .title {
+    color: #02A499;
+}
+
+/* Card background variations */
+.card-patient {
+    background-color: #E0F6FF;
+  }
+  
+  .card-emergency {
+    background-color: #E5F3FF;
+  }
+  
+  .card-pharmacy {
+    background-color: #E1FFFD;
+  }
+  
+  /* Circle Icon Wrapper */
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Individual icon backgrounds */
+  .icon-bg-patient {
+    background-color: #39B5E8;
+  }
+  
+  .icon-bg-emergency {
+    background-color: #0071D1;
+  }
+  
+  .icon-bg-pharmacy {
+    background-color: #02A499;
+  }
+  
+  /* Image inside the circle */
+  .icon-circle img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Label text */
+  .label-text {
+    color: #808283;
+    font-size: 11px;
+  }
+  
+  /* Heading styles */
+  .label-heading {
+    font-weight: bold;
+  }
+  
+  .label-heading.patient {
+    color: #4EBDEA;
+  }
+  
+  .label-heading.emergency {
+    color: #0071D1;
+  }
+  
+  .label-heading.pharmacy {
+    color: #02A499;
+  }
+
+  table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  
+  table {
+    border-radius: 15px;
+  }
+  
+  table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  
+  td, th {
+    text-align: center;
+      vertical-align: middle;
+      padding: 15px !important;
+  }
+  .table-name {
+    font-weight: 500;
+  }
+  
+  .available img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .page-btn {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 4px 10px;
+    cursor: pointer;
+    background-color: #F1F1F1;
+  }
+  
+  .text-gray {
+    color: gray;
+  }
