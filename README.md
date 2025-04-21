@@ -1,6 +1,4 @@
-# Project Name
-
-Medicore
+# Medicore
 
 ## Description
 
@@ -28,4 +26,8 @@ This is a patient management system that allows users to manage doctor and patie
    ```bash
    git clone https://github.com/yourusername/medicore.git
    cd medicore
+   composer install
+
+2. Install packages:
+   ```bash
    composer install
