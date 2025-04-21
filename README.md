@@ -31,6 +31,11 @@ This is a patient management system that allows users to manage doctor and patie
    ```bash
    composer install
 
-2. Database:
+3. Database:
    ```bash
    Import the database (scripts.sql)
+
+4. Run:
+   ```bash
+   To run the project use this command
+   php -S 127.0.0.1:8000 -t public
